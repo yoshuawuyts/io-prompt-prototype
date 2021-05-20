@@ -1,0 +1,20 @@
+[package]
+name = "io-prompt-prototype"
+version = "1.0.0"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yoshuawuyts/io-prompt-prototype"
+documentation = "https://docs.rs/io-prompt-prototype"
+description = "A prototype for io::prompt!"
+readme = "README.md"
+edition = "2018"
+keywords = []
+categories = []
+authors = [
+    "Yoshua Wuyts <yoshuawuyts@gmail.com>"
+]
+
+[features]
+
+[dependencies]
+
+[dev-dependencies]
