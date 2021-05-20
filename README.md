@@ -41,10 +41,16 @@
   </h3>
 </div>
 
+This crate builds on prior art from [this
+issue](https://github.com/rust-lang/rust/pull/75435#issuecomment-695805123),
+creating a convenient way to get user input from the command line.
+
 ## Installation
 ```sh
 $ cargo add io-prompt-prototype
 ```
+
+## Prior art
 
 ## Safety
 This crate uses ``#![deny(unsafe_code)]`` to ensure everything is implemented in
