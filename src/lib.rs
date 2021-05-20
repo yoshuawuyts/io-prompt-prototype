@@ -1,4 +1,5 @@
 //! A prototype for `io::prompt`, `io::promptln`, and `io::read_line`.
+//!
 //! # Examples
 //!
 //! ```no_run
@@ -26,6 +27,9 @@
 //!     encouraged to `.parse` instead.
 //! - The prompt family of macros only support reading a single line at the time
 //!     and assigning it to a value.
+//! - The prompt family of macros doesn't support rich input types such
+//!     as passwords or dropdowns. This functionality is expected to be provided
+//!     through crates.io.
 //!
 //! This library is split into two parts: a convenient `read_line` function
 //! which is a shorthand for calling `Stdin::read_line` and reading into a new
